@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>http://abstra208.com/</loc>
+    <image:image>
+      <image:loc>http://abstra208.com/abstra208_transparent_circle.png</image:loc>
+    </image:image>
+    <lastmod>2024-06-03T05:38:15+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>http://abstra208.com/works</loc>
+    <lastmod>2024-09-03T05:38:15+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>http://abstra208.com/skills</loc>
+    <lastmod>2024-09-03T05:38:15+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+    <url>
+    <loc>http://abstra208.com/#contact</loc>
+    <lastmod>2024-09-03T05:38:15+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>

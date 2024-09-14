@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter-Medium;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../font/inter/Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('../font/inter/Inter-Medium.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 8vh auto 8vh;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 8vh auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+nav .logo{
+    height: 60%;
+    padding: 20%;
+}
+nav .link{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 3vw;
+}
+nav .link ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+nav .link a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2vw;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    background-color: hsl(240 4.8% 95.9%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

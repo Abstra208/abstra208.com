@@ -1,8 +1,8 @@
 / /index.html 200
 
-/skills /pages/skills 200
-/work /pages/work 200
-/card /pages/card 200
+/skills /static/pages/skills 200
+/work /static/pages/work 200
+/card /static/pages/card 200
 
 /github https://github.com/abstra208 301
 

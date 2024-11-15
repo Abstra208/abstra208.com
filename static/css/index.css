@@ -1,9 +1,6 @@
 main{
     display: grid;
-    grid-template-rows: 92vh 80vh 80vh 18vh;
-}
-main *:not(#intro):not(#intro *):not(#works):not(#works *):not(#skills):not(#skills *) {
-    border: green 1px solid;
+    grid-template-rows: 92vh 80vh 80vh 70vh;
 }
 
 /*Intro*/
@@ -129,6 +126,8 @@ main #works .projects a{
     margin-left: 1%;
     margin-right: 1%;
     background-color: #fff;
+    color: black;
+    text-decoration: none;
     border-radius: 8px;
     cursor: pointer;
     margin-bottom: 1rem;
@@ -193,7 +192,7 @@ main #skills .skills a{
     margin-right: 1%;
     background-color: #fff;
     border-radius: 8px;
-    cursor: pointer;
+    cursor: default;
     margin-bottom: 1rem;
 }
 main #skills .skills a:hover{
@@ -213,9 +212,72 @@ main #skills .skills a p{
 
 /*contact*/
 
-main #contact{
+main #contact {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    background-color: white;
+    padding: 2rem 0;
+}
+
+main #contact #form-contact {
     background-color: hsl(240 4.8% 95.9%);
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main #contact #form-contact h1 {
+    font-size: 2rem;
+    font-family: Inter-Bold;
+    margin-bottom: .2rem;
+    text-align: center;
+}
+
+main #contact #form-contact p {
+    font-size: 1rem;
+    font-family: Inter-Medium;
+    text-align: center;
+    text-align: start;
+}
+
+main #contact #form-contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+main #contact #form-contact textarea {
+    margin-top: 1rem;
+}
+main #contact #form-contact textarea,
+main #contact #form-contact input {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Inter-Medium;
+    font-size: 1rem;
+    resize: none;
+}
+
+main #contact #form-contact button {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-family: Inter-Bold;
+    font-size: .8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+main #contact #form-contact button:hover {
+    background-color: #272727;
 }

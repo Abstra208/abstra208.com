@@ -90,6 +90,7 @@ main #works{
     justify-content: center;
     align-items: center;
     background-color: hsl(240 4.8% 95.9%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 main #works h1{
     font-size: 3rem;

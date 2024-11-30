@@ -5,6 +5,11 @@ main{
 
 /*Intro*/
 
+body{
+    display: grid;
+    grid-template-rows: 8vh auto 8vh;
+}
+
 main #intro{
     display: grid;
     grid-template-columns: 55% auto;

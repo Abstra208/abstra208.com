@@ -28,8 +28,6 @@ html {
 body{
     height: 100vh;
     width: 100vw;
-    display: grid;
-    grid-template-rows: 8vh auto 8vh;
 }
 
 nav{

@@ -271,6 +271,14 @@ main #contact #form-contact input {
     resize: none;
 }
 
+main #contact #form-contact .captcha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 main #contact #form-contact button {
     padding: 1rem;
     margin-bottom: 1rem;
